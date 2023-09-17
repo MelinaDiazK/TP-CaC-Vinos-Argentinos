@@ -1,0 +1,91 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+header {
+    
+    background-color:#9A031E;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+   
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.producto {
+   
+    border: 1px solid #9A031E;
+  margin: 20px 0px;
+    text-align: center;
+   
+}
+
+
+
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    padding: 10px ;
+}
+
+.precio {
+    font-weight: bold;
+    color: #0f0803;
+}
+
+button {
+    background-color: #4e5253;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9A031E;
+}
+
+footer {
+    background-color: #9A031E;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.edicion-especial{
+    text-align:center ;
+    border: 1px solid #9A031E;
+    margin-bottom: 20px ;
+    padding: 10px;
+}
