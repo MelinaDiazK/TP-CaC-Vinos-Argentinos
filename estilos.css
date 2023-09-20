@@ -23,9 +23,9 @@ header {
 }
 
 
-nav ul {
+/*nav ul {
     list-style: none;
-}
+}*/
 
 nav li {
     display: inline;
@@ -104,3 +104,13 @@ footer {
 .texto{
     background-color: #F5F5F5;
 }
+.bodegas{
+    
+    text-align: center;
+    background-color: white;
+}
+.texto{
+    background-color: white;
+}
+
+
