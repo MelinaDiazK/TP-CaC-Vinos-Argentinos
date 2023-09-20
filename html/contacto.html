@@ -1,8 +1,63 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Almacen de Vinos</title>
-    <link rel="stylesheet" href="/estilos.css">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../estilos-contac.css">
 </head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="social-icons">
+                <a href="#"><img src="../img/face.ico" alt="Facebook">Facebook</a>
+                <a href="#"><img src="../img/tw.ico" alt="Twitter">Twitter</a>
+                <a href="#"><img src="../img/inst.ico" alt="Instagram">Instagram</a>
+            </div>
+            <div class="contact-info">
+                <p>Contáctanos: contacto@tiendabebidas.com</p>
+            </div>
+        </div>
+        <h1>Almacen de Vinos Argentinos </h1>
+        <nav>
+            <ul>
+                <li><a href="../html/index.html">Inicio</a></li>
+                <li><a href="../html/catalogo.html">Catálogo</a></li>
+                <li><a href="../html/contacto.html">Contacto</a></li>
+                <li><a href="../html/promociones.html">Promociones</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="catalogo">
+            <!-- Utiliza CSS Grid para organizar los productos -->
+        </section>
+
+        <section class="promociones">
+           <!-- Sección de promociones para tarjetas de crédito -->
+        </section>
+
+        <section class="formulario">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Almacen de Vinos Argentinos</p>
+    </footer>
+</body>
+</html>
