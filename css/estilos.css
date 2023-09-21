@@ -22,6 +22,9 @@ header {
     margin-bottom: 20px;
 }
 
+.contact-info p {
+    font-size: 14px;
+}
 
 /*nav ul {
     list-style: none;
@@ -113,4 +116,46 @@ footer {
     background-color: white;
 }
 
+.formulario {
+    background-color: #001F3F;
+    color: #fff;
+    padding: 20px;
+    /* Estilos específicos para el formulario */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+button {
+    background-color:#4e5253;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#001F3F ;
+}
+
+footer {
+    background-color:#001F3F;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
 
