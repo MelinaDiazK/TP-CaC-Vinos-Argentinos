@@ -13,15 +13,7 @@ header {
     text-align: center;
 }
 
-.top-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-
-.contact-info p {
+.contact-info {
     font-size: 14px;
 }
 
@@ -49,6 +41,7 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    text-align: center;
     /* Estilos específicos para el catálogo */
 }
 
@@ -82,7 +75,7 @@ textarea {
 }
 
 button {
-    background-color:#4e5253;
+    background-color: #4e5253;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -90,11 +83,11 @@ button {
 }
 
 button:hover {
-    background-color:#001F3F ;
+    background-color: #001F3F;
 }
 
 footer {
-    background-color:#001F3F;
+    background-color: #001F3F;
     color: #fff;
     text-align: center;
     padding: 10px 0;
